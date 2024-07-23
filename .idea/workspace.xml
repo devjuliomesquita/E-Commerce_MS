@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="154e94ec-ccde-4ac0-a5dd-03a8c43e2e1a" name="Changes" comment="Criado a entidade e configurações de order purchase">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/communication_between_services/customer/CustomerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/communication_between_services/customer/CustomerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/communication_between_services/product/ProductClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/communication_between_services/product/PurchaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/controllers/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/dtos/OrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/dtos/PurchaseRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/exceptions/custom/CommunicationBetweenServicesException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/persistence/interfaces/OrderLineRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/persistence/interfaces/PurchaseOrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/persistence/mapper/PurchaseOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/services/PurchaseOrderServiceImpl.java" afterDir="false" />
+    <list default="true" id="154e94ec-ccde-4ac0-a5dd-03a8c43e2e1a" name="Changes" comment="WIP - Iniciado a criação do serviço de pedido.">
+      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/dtos/OrderLineRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/dtos/OrderLineResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/persistence/mapper/OrderLineMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/services/OrderLineServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/OrderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/dtos/OrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/dtos/OrderRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/services/PurchaseOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/order/src/main/java/com/juliomesquita/ecommerce/infra/services/PurchaseOrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +60,6 @@
     <option name="flattenModules" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -235,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719774384707</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="WIP - Iniciado a criação do serviço de pedido.">
+      <option name="closed" value="true" />
+      <created>1720065730326</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720065730326</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -253,6 +252,7 @@
     <MESSAGE value="Criado um novo ms product" />
     <MESSAGE value="Criado o fluxo de crud para o Product" />
     <MESSAGE value="Criado a entidade e configurações de order purchase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criado a entidade e configurações de order purchase" />
+    <MESSAGE value="WIP - Iniciado a criação do serviço de pedido." />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP - Iniciado a criação do serviço de pedido." />
   </component>
 </project>
